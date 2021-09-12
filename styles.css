@@ -1,21 +1,16 @@
-.head {
-    
-    }
-
 .header h1.logo {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     margin: 7px 0 0 0; float: left;
-    
     }
 
 .topnav {
     background-color: #333;
     overflow: hidden;
-  }
+    }
 
-.banner-text {
+.banner-text, .banner-image {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
@@ -28,6 +23,8 @@
     background-color: whitesmoke;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    background-position: center;
+    background-size: cover;
 }
 
 .footer {
