@@ -27,7 +27,7 @@
     background-color: whitesmoke;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    background-position: center;
+    background-position: absolute;
     background-size: cover;
 }
 
