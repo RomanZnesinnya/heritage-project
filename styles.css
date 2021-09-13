@@ -8,6 +8,8 @@
 .menu {
     background-color: rgb(250, 248, 248);
     overflow: hidden;
+    float: right;
+    display: block;
     }
 
 .banner {
@@ -21,7 +23,7 @@
     }
 
 .section-about {
-    background-color: whitesmoke;
+    background-color: white;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     background-position: absolute;
