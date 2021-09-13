@@ -1,16 +1,16 @@
-.header-logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     margin: 7px 0 0 0; float: left;
     }
 
-.topnav {
+.menu {
     background-color: #333;
     overflow: hidden;
     }
 
-.banner-text {
+.banner {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
@@ -19,7 +19,7 @@
     transform: translate(-50%, -50%);
     }
 
-.body {
+.section-about {
     background-color: whitesmoke;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -27,20 +27,12 @@
     background-size: cover;
 }
 
-.footer {
-
-}
-
-.project {
-    font-size: inherit;
-}
-
-.gallery {
+.representatives {
 
 }
 
 .history {
-
+    font-size: inherit;
 }
 
 .locations {
@@ -55,4 +47,6 @@
 
 }
 
+.footer {
 
+}
