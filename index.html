@@ -8,36 +8,46 @@
     <title>Our family heritage</title>
 </head>
 <body>
-    <header>
-        <nav>
-           <div class="logo">Family heritage
-           </div>
-           <div class="menu">
-               <a href="#">Про нас</a>
-               <a href="#">Представники</a>
-               <a href="#">Історія</a>
-               <a href="#">Місцевості</a>
-               <a href="#">Статті</a>
-               <a href="#">Контакти</a>
-           </div>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">Family heritage
+                </div>
+                <nav class="nav">
+                    <a class="nav-link" href="#">Про нас</a>
+                    <a class="nav-link" href="#">Представники</a>
+                    <a class="nav-link" href="#">Історія</a>
+                    <a class="nav-link" href="#">Місцевості</a>
+                    <a class="nav-link" href="#">Статті</a>
+                    <a class="nav-link" href="#">Контакти</a>
+                </nav>
+            </div>
+        </div>
         <div class="banner">
-            <div class="banner-text">
-                <h1>СПАДЩИНА НАШОГО РОДУ</h1>
-                <h2>Грушкевичі, Сапруни, Були, Заставні</h2>
+            <div class="container">
+                <div class="banner-inner">
+                    <h1 class="title">СПАДЩИНА НАШОГО РОДУ</h1>
+                    <h2 class="subtitle">Грушкевичі, Сапруни, Були, Заставні</h2>
+                </div>
             </div>
-            <div class="banner-image">
-                <img src="img/background_first.jpg" alt="background_first">
-            </div>
+        </div>
         </div>
     </header>
     <main>
-        <section class="section-about">
-            <h2>Про проект</h2>
-            <p>Ми знайшли багато цікавого в нашому родовому дереві, тому хочемо про це розповісти.</p>
+        <section class="section">
+            <div class="container">
+                <div class="section-about">
+                    <div id="box-container"></div>
+                        <div id="box-1">
+                        <img src="img/princes_slavonia.jpg" alt="princes-slavonia">
+                        </div>
+                        <div id="box-2"><h2>Про проект</h2><p>Ми знайшли багато цікавого в нашому родовому дереві, тому хочемо про це розповісти.</p>
+                        </div>
+                </div>
+            </div>
         </section>
         <section class="representatives">
-            <h2>Визначні представники роду</h2>
+            <h2 class="title-gallery">Визначні представники роду</h2>
             <div class="gallery">
                 <img src="img/tymofij-cherkavskyj.jpg" alt="tymofij-cherkavskyj">
                 <div class="desc">Тимофій Черкавський, віце-ректор Львівської семінарії. Зображення з 1835 року</div>
@@ -67,7 +77,7 @@
             </form>
         </section>
     </main>
-    <footer class="info">ROproject Family heritage All rights Reserved
+    <footer class="last-info">ROproject Family heritage All rights Reserved
     </footer>
 </body>
 </html>
