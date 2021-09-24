@@ -148,6 +148,7 @@ h1, h2 {
 .gallery {
     font-size: 13px;
     margin: 5px;
+    height: 300px;
     border: 1px solid #ccc;
     float: left;
     width: 190px;
