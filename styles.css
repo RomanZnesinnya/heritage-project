@@ -209,6 +209,69 @@ h1, h2 {
     background-color: currentColor;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.screen {
+    cursor: pointer;
+    width: 60%;
+    margin-left: 300px;
+    background-color: rgb(148, 141, 141) !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .controls {
+    background: #333;
+    color: #fff;
+    width: 60%;
+    margin-left: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .controls .btn {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .controls .fa-play {
+    color:rgb(96, 122, 81);
+  }
+  
+  .controls .fa-stop {
+    color:rgb(80, 80, 121);
+  }
+  
+  .controls .fa-pause {
+    color: #fff;
+  }
+  
+  .controls .timestamp {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .btn:focus {
+    outline: 0;
+  }
+  
+  @media (max-width: 800) {
+    .screen,
+    .controls {
+      width: 90%;
+    }
+  }
+
 .title-articles {
     font-size: 22px;
     text-align: center;
@@ -296,63 +359,6 @@ button.primaryContained:hover {
     height: 3px;
     margin: auto;
     background-color: currentColor;
-}
-
-.screen {
-  cursor: pointer;
-  width: 60%;
-  margin-left: 300px;
-  background-color: rgb(148, 141, 141) !important;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.controls {
-  background: #333;
-  color: #fff;
-  width: 60%;
-  margin-left: 300px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.controls .btn {
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-}
-
-.controls .fa-play {
-  color:rgb(96, 122, 81);
-}
-
-.controls .fa-stop {
-  color:rgb(80, 80, 121);
-}
-
-.controls .fa-pause {
-  color: #fff;
-}
-
-.controls .timestamp {
-  color: #fff;
-  font-weight: bold;
-  margin-left: 10px;
-}
-
-.btn:focus {
-  outline: 0;
-}
-
-@media (max-width: 800) {
-  .screen,
-  .controls {
-    width: 90%;
-  }
 }
 
 footer {
