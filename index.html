@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Our family heritage</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"/>
 </head>
 <body>
     <header class="header">
@@ -60,7 +65,7 @@
               </div>
               <div class="gallery">
                     <img src="img/03.StefanSaprun.jpg" alt="stefan-saprun">
-                    <div class="desc">Стефан Сапрун, священик з Сокальщини, арештований росіянами в 1914 році</div>
+                    <div class="desc">Стефан Сапрун, священник з Сокальщини, арештований в 1914 році</div>
               </div>
               <div class="gallery">
                     <img src="img/04.MelaniaBula.jpg" alt="melania-bula">
@@ -95,6 +100,32 @@
                 <div class="container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1321789.4091757133!2d22.912725111435503!3d49.68029740105305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add693e639c6f%3A0x630d8c8887ba3d62!2z0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1631796745242!5m2!1suk!2sua" width="1200" height="300" style="border: 0px;" allowfullscreen="0" loading="lazy"></iframe>
                 </div>
+                <h1></h1>
+                <video
+                  src="videos/gone.mp4"
+                  id="video"
+                  class="screen"
+                  poster="img/poster.png"
+                ></video>
+                <div class="controls">
+                  <button class="btn" id="play">
+                    <i class="fa fa-play fa-2x"></i>
+                  </button>
+                  <button class="btn" id="stop">
+                    <i class="fa fa-stop fa-2x"></i>
+                  </button>
+                  <input
+                    type="range"
+                    id="progress"
+                    class="progress"
+                    min="0"
+                    max="100"
+                    step="0.1"
+                    value="0"
+                  />
+                  <span class="timestamp" id="timestamp">00:00</span>
+                </div>
+                <script src="script.js"></script>
         <div class="container">
                 <div class="title-articles"><h2>Статті</h2></div>
                 <div id="box-container">
